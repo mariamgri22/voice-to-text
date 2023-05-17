@@ -12,10 +12,6 @@ body {
   cursor: pointer;
 }
 
-#speechButton i {
-  font-size: 36px;
-}
-
 #speechButton.active {
   animation: pulse 0.3s linear infinite;
 }
