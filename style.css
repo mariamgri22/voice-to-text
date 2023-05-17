@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+#speechButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#speechButton i {
+  font-size: 36px;
+}
+
+#speechButton.active {
+  animation: pulse 0.3s linear infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
