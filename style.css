@@ -2,8 +2,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  font-family: Arial, sans-serif;
+  margin: 30px auto 0 auto;
+  background-color: #56d46a;
+  width: 80vw;
+  height: 75vh;
 }
 
 #speechButton {
