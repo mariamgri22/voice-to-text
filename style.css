@@ -15,7 +15,23 @@ body {
 }
 
 #speechButton.active {
+  -webkit-animation: pulse 0.3s linear infinite;
   animation: pulse 0.3s linear infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 @keyframes pulse {
