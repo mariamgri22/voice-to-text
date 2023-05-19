@@ -7,7 +7,7 @@ let isAudioPlaying = false;
 recognition.onresult = (event) => {
   const result = event.results[0][0].transcript;
   console.log("Result:", result);
-  fetchData(result);
+  fetchDataWithLoader(result);
 };
 
 speechButton.addEventListener("mousedown", () => {

@@ -4,6 +4,7 @@ function speakText(text) {
   if (speechSynthesis.speaking) {
     speechSynthesis.cancel();
   }
+
   const utter = new SpeechSynthesisUtterance(text);
   speechSynthesis.speak(utter);
 }
